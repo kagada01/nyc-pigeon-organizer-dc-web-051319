@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         storage[pigeon] ||= {}
         storage[pigeon][key] ||= []
         storage[pigeon][key] << category
-        binding.pry
+        #binding.pry
       end
     end
   end
