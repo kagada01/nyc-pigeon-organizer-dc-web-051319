@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       pigeons.each do |pigeon|
         storage[pigeon] ||= {}
         storage[pigeon][key] ||= []
+        storage[pigeon][key] << cate
         binding.pry
       end
     end
