@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     hash.each do |category, pigeons|
       pigeons.each do |pigeon|
         storage[pigeon] ||= {}
-        storage[name][key] ||= []
+        storage[pigeon][key] ||= []
         binding.pry
       end
     end
